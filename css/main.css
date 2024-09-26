@@ -229,7 +229,7 @@ li {
 }
 
 .hero-section {
-  background-image: url(/image/hero-background.jpg);
+  background-image: url("../image/hero-background.jpg");
   background-repeat: no-repeat;
   background-position: center top;
 }
