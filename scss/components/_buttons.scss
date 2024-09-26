@@ -45,6 +45,10 @@
   position: absolute;
   z-index: -1;
 }
+.real-checkbox:checked + .custom-checkbox::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
 .custom-checkbox {
   position: relative;
   display: inline-block;
@@ -67,7 +71,4 @@
   top: 60%;
   transform: translate(-50%, -50%) scale(0);
   transition: 0.2s ease-in;
-}
-.real-checkbox:checked + .custom-checkbox::before {
-  transform: translate(-50%, -50%) scale(1);
 }
