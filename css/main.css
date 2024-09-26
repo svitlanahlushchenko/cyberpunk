@@ -126,11 +126,6 @@ li {
   z-index: -1;
 }
 
-.real-checkbox:checked + .custom-checkbox::before {
-  -webkit-transform: translate(-50%, -50%) scale(1);
-          transform: translate(-50%, -50%) scale(1);
-}
-
 .custom-checkbox {
   position: relative;
   display: inline-block;
@@ -156,6 +151,11 @@ li {
           transform: translate(-50%, -50%) scale(0);
   -webkit-transition: 0.2s ease-in;
   transition: 0.2s ease-in;
+}
+
+.real-checkbox:checked + .custom-checkbox::before {
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
 }
 
 .buy-section__container {
