@@ -1,0 +1,28 @@
+.footer {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px 0px;
+    align-items: center;
+    gap: 25px;
+  }
+  &__license {
+    padding: 25px 39px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1;
+  }
+  &__item {
+    padding-bottom: 15px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  &__project {
+    text-align: center;
+    background-color: $color-base-dark;
+    color: $color-base-light;
+    font-family: Roboto;
+    font-size: 12px;
+  }
+}

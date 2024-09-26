@@ -7,10 +7,6 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    @media screen and (min-width: $bp-tablet) {
-      padding-top: 635px;
-      padding-left: 33%;
-    }
   }
   &__text {
     display: flex;
@@ -20,9 +16,6 @@
     background-color: $color-base-middle;
     padding: 38px 30px;
     clip-path: polygon(10% 0, 100% 0, 100% 85%, 90% 100%, 0 100%, 0 15%);
-    @media screen and (min-width: $bp-tablet) {
-      max-width: 624px;
-    }
   }
   &__title {
     font-family: Archangelsk;
@@ -32,10 +25,6 @@
     padding-bottom: 25px;
     color: $color-base-dark;
     max-width: 295px;
-    @media screen and (min-width: $bp-tablet) {
-      max-width: 484px;
-      font-size: 60px;
-      font-weight: normal;
-    }
+    font-weight: normal;
   }
 }
