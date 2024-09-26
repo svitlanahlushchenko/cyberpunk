@@ -370,10 +370,8 @@ li {
   line-height: 1;
   font-weight: normal;
 }
-@media screen and (min-width: 480px) {
-  .info-section__photo-container {
-    padding: 70px 36px;
-  }
+.info-section__photo-container {
+  padding-bottom: 70px;
 }
 @media screen and (min-width: 480px) {
   .info-section__row-photo {
