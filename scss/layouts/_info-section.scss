@@ -1,0 +1,40 @@
+.info-section {
+  &__text-container {
+    padding: 70px 12px;
+    font-family: Roboto;
+    @media screen and (min-width: $bp-tablet) {
+      padding: 70px 36px;
+    }
+    @media screen and (min-width: $bp-desktop) {
+      padding: 70px 320px;
+    }
+  }
+  &__title {
+    font-family: Archangelsk;
+    font-size: 30px;
+    line-height: 1;
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 62px;
+      font-weight: normal;
+    }
+  }
+
+  &__photo-container {
+    @media screen and (min-width: $bp-tablet) {
+      padding: 0px 36px;
+    }
+  }
+  &__row-photo {
+    @media screen and (min-width: $bp-tablet) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 32px;
+      padding-bottom: 32px;
+    }
+  }
+
+  &__photo {
+    width: 100vw;
+    clip-path: polygon(10% 0, 100% 0, 100% 85%, 90% 100%, 0 100%, 0 15%);
+  }
+}

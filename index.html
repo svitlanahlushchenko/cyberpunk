@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyberpunk</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <img
+            class="header__logo"
+            src="./image/main-logo.svg"
+            alt="Cyberpunk Logo"
+          />
+          <div class="header__icons">
+            <svg width="30" height="30">
+              <use href="./image/icons.svg#icon-youtube"></use>
+            </svg>
+            <svg width="30" height="30">
+              <use href="./image/icons.svg#icon-vk"></use>
+            </svg>
+            <svg width="30" height="30">
+              <use href="./image/icons.svg#icon-facebook"></use>
+            </svg>
+            <svg width="30" height="30">
+              <use href="./image/icons.svg#icon-twitter"></use>
+            </svg>
+            <svg width="30" height="30">
+              <use href="./image/icons.svg#icon-twitch"></use>
+            </svg>
+            <svg width="30" height="30">
+              <use href="./image/icons.svg#icon-instagram"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-section__container">
+          <div class="hero-section__text">
+            <h2 class="hero-section__title">Доступно на всех платформах</h2>
+            <button type="button" class="button">Узнать больше</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-section">
+      <div class="container">
+        <div class="info-section__text-container">
+          <h2 class="info-section__title">Найт-Сити изменит тебя навсегда!</h2>
+          <p>
+            <span class="accent">Cyberpunk 2077</span> — приключенческая ролевая
+            игра, действие которой происходит в мегаполисе Найт-Сити, где
+            власть, роскошь и модификации тела ценятся выше всего. Ты играешь за
+            V, наёмника в поисках устройства, позволяющего обрести бессмертие.
+            Ты сможешь менять киберимпланты, навыки и стиль игры своего
+            персонажа, исследуя открытый мир, где твои поступки влияют на ход
+            сюжета и всё, что тебя окружает.
+          </p>
+        </div>
+        <div class="info-section__photo-container">
+          <div class="info-section__row-photo">
+            <img
+              class="info-section__photo"
+              src="/image/info-city.png"
+              alt="Night City"
+            />
+            <img
+              class="info-section__photo"
+              src="/image/info-moto.png"
+              alt="Motocycle"
+            />
+          </div>
+          <img
+            class="info-section__photo"
+            src="/image/info-buildings.png"
+            alt="Night info-buildings"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="promotion-section">
+      <div class="container">
+        <img src="/image/white-black.png" alt="line" />
+        <img
+          class="promotion-section__promotion-photo"
+          src="/image/promotiom.svg"
+          alt="promotiom"
+        />
+        <div class="promotion-section__container">
+          <div class="promotion-section__photo-container">
+            <div class="promotion-section__xbox">
+              <img
+                class="promotion-section__background-line"
+                src="/image/yellow-line.svg"
+                alt="yellow"
+              />
+              <img
+                class="promotion-section__main-photo"
+                src="/image/xbox.svg"
+                alt="x-box"
+              />
+            </div>
+            <div class="promotion-section__ps4">
+              <img
+                class="promotion-section__background-line"
+                src="/image/blue-line.svg"
+                alt="line"
+              />
+              <img
+                class="promotion-section__main-photo"
+                src="/image/playstation.svg"
+                alt="playstation"
+              />
+            </div>
+          </div>
+
+          <div class="promotion-section__info">
+            <div class="promotion-section__text-container">
+              <h2 class="promotion-section__text-container-title">
+                Играй и выигрывай!
+              </h2>
+              <p class="promotion-section__text">
+                Играй в <span class="accent">Cyberpunk 2077</span> и получи
+                возможность выиграть консоль
+                <span class="accent">Xbox Series X</span> или
+                <span class="accent">Sony PlayStation 5!</span>
+                Заполни форму ниже и приложи скриншот о покупке игры. Итоги
+                розыгрыша будут подведены 1 февраля. Удачи!
+              </p>
+            </div>
+            <div class="promotion-section__contact">
+              <form
+                class="promotion-section__contact-form"
+                name="contact-form"
+                autocomplete="on"
+                novalidate
+              >
+                <div class="promotion-section__form-field">
+                  <input
+                    class="promotion-section__form-input"
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                  />
+                  <label class="promotion-section__form-label" for="name"
+                    >Как тебя зовут?</label
+                  >
+                </div>
+
+                <div class="promotion-section__form-field">
+                  <input
+                    class="promotion-section__form-input"
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                  />
+                  <label class="promotion-section__form-label" for="email"
+                    >Твой е-mail</label
+                  >
+                </div>
+                <div class="promotion-section__form-screenshot">
+                  <input
+                    class="promotion-section__form-screenshot-input"
+                    type="file"
+                    id="screenshot"
+                    name="screenshot"
+                    accept="image/*"
+                    required
+                  />
+                  <label
+                    class="promotion-section__form-screenshot-label"
+                    for="email"
+                    >Прикрепить скриншот</label
+                  >
+                </div>
+                <button class="button-reverse-color" type="submit">
+                  Отправить
+                </button>
+                <div class="promotion-section__checkbox-container">
+                  <label
+                    ><input
+                      class="real-checkbox"
+                      type="checkbox"
+                      name="agreed"
+                      id="agreed"
+                      required
+                    />
+                    <span class="custom-checkbox"></span> Согласен на обработку
+                    персональных данных</label
+                  >
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

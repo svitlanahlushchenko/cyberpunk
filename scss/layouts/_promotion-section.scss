@@ -1,0 +1,121 @@
+.promotion-section {
+  &__container {
+    background-color: $color-base-dark;
+    padding: 55px 12px 70px;
+    @media screen and (min-width: $bp-tablet) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 164px;
+      padding: 162px 36px 70px;
+    }
+  }
+  &__promotion-photo {
+    position: absolute;
+    padding: 6px 0px 0px 12px;
+    @media screen and (min-width: $bp-tablet) {
+      transform: scale(2);
+      padding: 30px 0px 0px 36px;
+    }
+  }
+  &__photo-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: column;
+      order: 2;
+    }
+  }
+  &__background-line {
+    position: absolute;
+    @media screen and (min-width: $bp-tablet) {
+      transform: scale(3.5);
+    }
+  }
+  &__main-photo {
+    position: relative;
+    padding-left: 47px;
+    @media screen and (min-width: $bp-tablet) {
+      transform: scale(3.5);
+    }
+  }
+  &__info {
+    @media screen and (min-width: $bp-tablet) {
+      order: 1;
+    }
+  }
+
+  &__text-container-title {
+    font-size: 30px;
+    color: $color-base-light;
+    font-weight: normal;
+    line-height: 1;
+    padding: 25px 0px;
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 62px;
+    }
+    @media screen and (min-width: $bp-tablet) {
+      padding-left: 164px;
+    }
+  }
+  &__text {
+    color: $color-base-light;
+    font-family: Roboto;
+    font-size: 16px;
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 18px;
+    }
+  }
+  &__contact {
+    padding: 70px 12px 0px;
+  }
+  &__form-field {
+    margin-bottom: 35px;
+    position: relative;
+  }
+  &__form-label {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    color: $color-base-light;
+    top: -14px;
+    font-family: Roboto;
+    font-weight: 300;
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 18px;
+    }
+  }
+
+  &__form-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $color-secondary;
+    padding-right: 150px;
+  }
+  &__form-screenshot {
+    padding: 35px 0px 85px;
+  }
+  &__form-screenshot-input {
+    position: absolute;
+    width: 296px;
+    height: 120px;
+    margin-top: -45px;
+    opacity: 0;
+  }
+  &__form-screenshot-label {
+    font-size: 16px;
+    border: 2px dashed $color-secondary;
+    padding: 50px 65px;
+    color: $color-base-light;
+    font-weight: 300;
+    font-family: Roboto;
+    text-decoration: underline;
+  }
+  &__checkbox-container {
+    color: $color-base-light;
+    font-weight: 300;
+    font-family: Roboto;
+    padding-top: 14px;
+    font-size: 12px;
+  }
+}
