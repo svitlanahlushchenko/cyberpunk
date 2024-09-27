@@ -459,7 +459,7 @@ li {
           justify-content: center;
   margin: auto;
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 1024px) {
   .hero-section__container {
     -webkit-box-pack: end;
         -ms-flex-pack: end;
