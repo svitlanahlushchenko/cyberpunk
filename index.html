@@ -52,36 +52,40 @@
 
     <section class="info-section">
       <div class="container">
-        <div class="info-section__text-container">
-          <h2 class="info-section__title">Найт-Сити изменит тебя навсегда!</h2>
-          <p>
-            <span class="accent">Cyberpunk 2077</span> — приключенческая ролевая
-            игра, действие которой происходит в мегаполисе Найт-Сити, где
-            власть, роскошь и модификации тела ценятся выше всего. Ты играешь за
-            V, наёмника в поисках устройства, позволяющего обрести бессмертие.
-            Ты сможешь менять киберимпланты, навыки и стиль игры своего
-            персонажа, исследуя открытый мир, где твои поступки влияют на ход
-            сюжета и всё, что тебя окружает.
-          </p>
-        </div>
-        <div class="info-section__photo-container">
-          <div class="info-section__row-photo">
+        <div class="info-section__container">
+          <div class="info-section__text-container">
+            <h2 class="info-section__title">
+              Найт-Сити изменит тебя навсегда!
+            </h2>
+            <p>
+              <span class="accent">Cyberpunk 2077</span> — приключенческая
+              ролевая игра, действие которой происходит в мегаполисе Найт-Сити,
+              где власть, роскошь и модификации тела ценятся выше всего. Ты
+              играешь за V, наёмника в поисках устройства, позволяющего обрести
+              бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры
+              своего персонажа, исследуя открытый мир, где твои поступки влияют
+              на ход сюжета и всё, что тебя окружает.
+            </p>
+          </div>
+          <div class="info-section__photo-container">
+            <div class="info-section__row-photo">
+              <img
+                class="info-section__photo"
+                src="./image/info-city.png"
+                alt="Night City"
+              />
+              <img
+                class="info-section__photo"
+                src="./image/info-moto.png"
+                alt="Motocycle"
+              />
+            </div>
             <img
               class="info-section__photo"
-              src="./image/info-city.png"
-              alt="Night City"
-            />
-            <img
-              class="info-section__photo"
-              src="./image/info-moto.png"
-              alt="Motocycle"
+              src="./image/info-buildings.png"
+              alt="Night info-buildings"
             />
           </div>
-          <img
-            class="info-section__photo"
-            src="./image/info-buildings.png"
-            alt="Night info-buildings"
-          />
         </div>
       </div>
     </section>
@@ -121,7 +125,6 @@
               />
             </div>
           </div>
-
           <div class="promotion-section__info">
             <div class="promotion-section__text-container">
               <h2 class="promotion-section__text-container-title">
@@ -143,31 +146,23 @@
                 autocomplete="on"
                 novalidate
               >
-                <div class="promotion-section__form-field">
-                  <input
-                    class="promotion-section__form-input"
-                    type="text"
-                    id="name"
-                    name="name"
-                    required
-                  />
-                  <label class="promotion-section__form-label" for="name"
-                    >Как тебя зовут?</label
-                  >
-                </div>
+                <input
+                  class="promotion-section__form-input"
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Как тебя зовут?"
+                />
+                <input
+                  class="promotion-section__form-input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Твой е-mail"
+                />
 
-                <div class="promotion-section__form-field">
-                  <input
-                    class="promotion-section__form-input"
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                  />
-                  <label class="promotion-section__form-label" for="email"
-                    >Твой е-mail</label
-                  >
-                </div>
                 <div class="promotion-section__form-screenshot">
                   <input
                     class="promotion-section__form-screenshot-input"
@@ -210,92 +205,102 @@
       <div class="container">
         <img src="./image/black-yellow.png" alt="line" />
         <div class="description-section__container">
-          <img src="./image/computer.svg" alt="computer" />
-          <div class="description-section__logos">
-            <svg width="44" height="44">
-              <use href="./image/icons.svg#icon-hp"></use>
-            </svg>
-            <img src="./image/cross.svg" alt="cross" />
+          <div class="description-section__photo-container">
             <img
-              class="description-section__main-logo"
-              src="./image/main-logo.svg"
-              alt="Cyberpunk Logo"
+              class="description-section__conputer-photo"
+              src="./image/computer.svg"
+              alt="computer"
             />
+            <div class="description-section__logos">
+              <svg width="44" height="44">
+                <use href="./image/icons.svg#icon-hp"></use>
+              </svg>
+              <img src="./image/cross.svg" alt="cross" />
+              <img
+                class="description-section__main-logo"
+                src="./image/main-logo.svg"
+                alt="Cyberpunk Logo"
+              />
+            </div>
           </div>
-          <h2 class="description-section__title">
-            Полное погружение вместе с HP
-          </h2>
-          <p class="description-section__text">
-            Погрузись в современные экшен-игры с реалистичным изображением с
-            помощью монитора с диагональю 23,8 дюйма, созданном для отображения
-            максимально насыщенных цветов. Успевай реагировать на любые события
-            с временем отклика 1 мс и частотой в 144 Гц!
-          </p>
-          <div class="description-section__list">
-            <li class="description-section__item">
-              <svg width="24" height="24">
-                <use href="./image/icons.svg#icon-palette"></use>
-              </svg>
-              <p>Яркие насыщенные цвета</p>
-            </li>
-            <li class="description-section__item">
-              <svg width="24" height="24">
-                <use href="./image/icons.svg#icon-stars"></use>
-              </svg>
-              <p>Кристальная четкость изображения</p>
-            </li>
-            <li class="description-section__item">
-              <svg width="24" height="24">
-                <use href="./image/icons.svg#icon-files"></use>
-              </svg>
-              <p>Быстрые движения и плавный геймплей</p>
-            </li>
+          <div class="description-section__text-container">
+            <h2 class="description-section__title">
+              Полное погружение вместе с HP
+            </h2>
+            <p class="description-section__text">
+              Погрузись в современные экшен-игры с реалистичным изображением с
+              помощью монитора с диагональю 23,8 дюйма, созданном для
+              отображения максимально насыщенных цветов. Успевай реагировать на
+              любые события с временем отклика 1 мс и частотой в 144 Гц!
+            </p>
+            <div class="description-section__list">
+              <li class="description-section__item">
+                <svg width="24" height="24">
+                  <use href="./image/icons.svg#icon-palette"></use>
+                </svg>
+                <p>Яркие насыщенные цвета</p>
+              </li>
+              <li class="description-section__item">
+                <svg width="24" height="24">
+                  <use href="./image/icons.svg#icon-stars"></use>
+                </svg>
+                <p>Кристальная четкость изображения</p>
+              </li>
+              <li class="description-section__item">
+                <svg width="24" height="24">
+                  <use href="./image/icons.svg#icon-files"></use>
+                </svg>
+                <p>Быстрые движения и плавный геймплей</p>
+              </li>
+            </div>
+            <button class="button" type="button">Подробнее</button>
           </div>
-          <button class="button" type="button">Подробнее</button>
         </div>
       </div>
     </section>
 
     <section class="buy-section">
       <div class="container">
-        <img class="buy-section__photo" src="./image/disks.jpg" alt="Disks" />
-        <div class="buy-section__container">
-          <h2 class="buy-section__title">Купить игру Cyberpunk 2077</h2>
-          <h3 class="buy-section__accent-title">В комплект входит:</h3>
-          <ul class="buy-section__list">
-            <li class="buy-section__item">
-              <svg width="24" height="24">
-                <use href="./image/icons.svg#icon-cd"></use>
+        <div class="buy-section__whole-content">
+          <img class="buy-section__photo" src="./image/disks.jpg" alt="Disks" />
+          <div class="buy-section__container">
+            <h2 class="buy-section__title">Купить игру Cyberpunk 2077</h2>
+            <h3 class="buy-section__accent-title">В комплект входит:</h3>
+            <ul class="buy-section__list">
+              <li class="buy-section__item">
+                <svg width="24" height="24">
+                  <use href="./image/icons.svg#icon-cd"></use>
+                </svg>
+                <p>Футляр с игровыми дисками</p>
+              </li>
+              <li class="buy-section__item">
+                <svg width="24" height="24">
+                  <use href="./image/icons.svg#icon-note"></use>
+                </svg>
+                <p>Футляр с кодом для загрузки игры и дисками (pc)</p>
+              </li>
+              <li class="buy-section__item">
+                <svg width="24" height="24">
+                  <use href="./image/icons.svg#icon-images"></use>
+                </svg>
+                <p>Справочник с информацией об игровом мире</p>
+              </li>
+            </ul>
+            <h3 class="buy-section__accent-title">Выберите платформу:</h3>
+            <div class="buy-section__platforms">
+              <svg width="62" height="35">
+                <use href="./image/icons.svg#icon-pc"></use>
               </svg>
-              <p>Футляр с игровыми дисками</p>
-            </li>
-            <li class="buy-section__item">
-              <svg width="24" height="24">
-                <use href="./image/icons.svg#icon-note"></use>
+              <svg width="178" height="35">
+                <use href="./image/icons.svg#icon-xbox-one"></use>
               </svg>
-              <p>Футляр с кодом для загрузки игры и дисками (pc)</p>
-            </li>
-            <li class="buy-section__item">
-              <svg width="24" height="24">
-                <use href="./image/icons.svg#icon-images"></use>
+              <svg width="58" height="50">
+                <use href="./image/icons.svg#icon-stadia"></use>
               </svg>
-              <p>Справочник с информацией об игровом мире</p>
-            </li>
-          </ul>
-          <h3 class="buy-section__accent-title">Выберите платформу:</h3>
-          <div class="buy-section__platforms">
-            <svg width="62" height="35">
-              <use href="./image/icons.svg#icon-pc"></use>
-            </svg>
-            <svg width="178" height="35">
-              <use href="./image/icons.svg#icon-xbox-one"></use>
-            </svg>
-            <svg width="58" height="50">
-              <use href="./image/icons.svg#icon-stadia"></use>
-            </svg>
-            <svg width="168" height="35">
-              <use href="./image/icons.svg#icon-playstation-logo"></use>
-            </svg>
+              <svg width="168" height="35">
+                <use href="./image/icons.svg#icon-playstation-logo"></use>
+              </svg>
+            </div>
           </div>
         </div>
       </div>

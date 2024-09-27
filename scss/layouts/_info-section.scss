@@ -1,4 +1,9 @@
 .info-section {
+  &__container {
+    @media screen and (min-width: $bp-mobile) {
+      display: grid;
+    }
+  }
   &__text-container {
     padding: 70px 12px;
     font-family: Roboto;
@@ -8,10 +13,17 @@
     font-size: 30px;
     line-height: 1;
     font-weight: normal;
+    @media screen and (min-width: $bp-mobile) {
+      font-size: 62px;
+      max-width: 620px;
+    }
   }
 
   &__photo-container {
     padding-bottom: 70px;
+    @media screen and (min-width: $bp-mobile) {
+      padding: 0px 36px 70px;
+    }
   }
   &__row-photo {
     @media screen and (min-width: $bp-mobile) {
@@ -25,5 +37,11 @@
   &__photo {
     width: 100vw;
     clip-path: polygon(10% 0, 100% 0, 100% 85%, 90% 100%, 0 100%, 0 15%);
+  }
+  &__text-container {
+    padding: 70px 36px;
+    @media screen and (min-width: $bp-mobile) {
+      font-size: 18px;
+    }
   }
 }

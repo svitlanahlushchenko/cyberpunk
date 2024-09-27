@@ -2,15 +2,24 @@
   &__container {
     display: flex;
     flex-direction: column;
-    padding: 40px 60px 0px;
+    padding-top: 40px;
     align-items: center;
     gap: 25px;
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+      justify-content: center;
+      padding: 13px 36px;
+    }
   }
   &__license {
     padding: 25px 39px;
     font-family: Roboto;
     font-size: 16px;
     line-height: 1;
+    @media screen and (min-width: $bp-tablet) {
+      display: flex;
+      gap: 32px;
+    }
   }
   &__item {
     padding-bottom: 15px;
