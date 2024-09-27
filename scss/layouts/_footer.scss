@@ -9,6 +9,13 @@
       flex-direction: row;
       justify-content: center;
       padding: 13px 36px;
+      gap: 32px;
+    }
+  }
+  &__logos {
+    @media screen and (min-width: $bp-tablet) {
+      display: flex;
+      gap: 32px;
     }
   }
   &__license {
@@ -23,6 +30,9 @@
   }
   &__item {
     padding-bottom: 15px;
+    @media screen and (min-width: $bp-tablet) {
+      padding-bottom: 0;
+    }
     &:hover {
       text-decoration: underline;
     }

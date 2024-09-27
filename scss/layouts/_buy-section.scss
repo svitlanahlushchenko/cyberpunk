@@ -61,7 +61,8 @@
   &__platforms {
     fill: $color-base-middle;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 80px);
     grid-template-rows: 1fr 1fr;
+    gap: 55px;
   }
 }

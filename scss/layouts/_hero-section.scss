@@ -11,6 +11,9 @@
       justify-content: flex-end;
       padding-right: 36px;
     }
+    @media screen and (min-width: $bp-desktop) {
+      padding-right: 16%;
+    }
   }
   &__text {
     display: flex;
@@ -20,6 +23,11 @@
     background-color: $color-base-middle;
     padding: 38px 30px;
     clip-path: polygon(10% 0, 100% 0, 100% 85%, 90% 100%, 0 100%, 0 15%);
+    @media screen and (min-width: $bp-tablet) {
+      max-width: 624px;
+      padding: 70px;
+      align-items: flex-start;
+    }
   }
   &__title {
     font-family: Archangelsk;
@@ -30,5 +38,9 @@
     color: $color-base-dark;
     max-width: 295px;
     font-weight: normal;
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 60px;
+      max-width: 484px;
+    }
   }
 }

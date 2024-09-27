@@ -31,7 +31,7 @@
     }
   }
   &__background-line {
-    position: absolute;
+    position: relative;
     @media screen and (min-width: $bp-mobile) {
       transform: scale(2);
     }
@@ -40,13 +40,15 @@
     }
   }
   &__main-photo {
-    position: relative;
-    padding-left: 47px;
+    position: absolute;
+    padding-left: 40px;
+    margin-top: -120px;
     @media screen and (min-width: $bp-mobile) {
       transform: scale(2);
     }
     @media screen and (min-width: $bp-tablet) {
       transform: scale(3);
+      z-index: 1;
     }
   }
   &__info {
@@ -55,6 +57,7 @@
       max-width: 460px;
     }
   }
+
   &__text-container-title {
     font-size: 30px;
     color: $color-base-light;
