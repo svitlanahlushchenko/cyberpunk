@@ -1,0 +1,40 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-playstation-logo {
+  width: 4.6669921875em;
+}
+
+.icon-cross {
+  width: 4.380859375em;
+}
+
+.icon-pc {
+  width: 1.72265625em;
+}
+
+.icon-stadia {
+  width: 1.1376953125em;
+}
+
+.icon-twitch {
+  width: 0.966796875em;
+}
+
+.icon-xbox-one {
+  width: 4.9443359375em;
+}
