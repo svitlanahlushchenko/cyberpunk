@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cyberpunk/static/css/main.be88804e.css",
+    "main.js": "/cyberpunk/static/js/main.a2edbdee.js",
+    "static/js/453.721b1389.chunk.js": "/cyberpunk/static/js/453.721b1389.chunk.js",
+    "static/media/hero-background.jpg": "/cyberpunk/static/media/hero-background.f9343ed36fede9db1c00.jpg",
+    "static/media/roboto-v32-latin-700.woff2": "/cyberpunk/static/media/roboto-v32-latin-700.4535474e1cf8598695ad.woff2",
+    "static/media/roboto-v32-latin-regular.woff2": "/cyberpunk/static/media/roboto-v32-latin-regular.297d48e1b5a10c0831a9.woff2",
+    "static/media/roboto-v32-latin-300.woff2": "/cyberpunk/static/media/roboto-v32-latin-300.b850f1ff581ea232fac9.woff2",
+    "index.html": "/cyberpunk/index.html",
+    "static/media/check.svg": "/cyberpunk/static/media/check.cf9e5a3093580af18dfb.svg",
+    "main.be88804e.css.map": "/cyberpunk/static/css/main.be88804e.css.map",
+    "main.a2edbdee.js.map": "/cyberpunk/static/js/main.a2edbdee.js.map",
+    "453.721b1389.chunk.js.map": "/cyberpunk/static/js/453.721b1389.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be88804e.css",
+    "static/js/main.a2edbdee.js"
+  ]
+}
