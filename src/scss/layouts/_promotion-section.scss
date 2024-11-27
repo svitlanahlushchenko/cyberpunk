@@ -1,0 +1,145 @@
+.promotion-section {
+  &__container {
+    background-color: $color-base-dark;
+    padding: 55px 12px 70px;
+    @media screen and (min-width: $bp-tablet) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 162px 36px 70px;
+    }
+  }
+  &__promotion-photo {
+    position: absolute;
+    padding: 6px 0px 0px 12px;
+    @media screen and (min-width: $bp-tablet) {
+      transform: scale(2.2);
+      padding: 30px 0px 0px 36px;
+    }
+  }
+  &__photo-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 32px;
+    @media screen and (min-width: $bp-mobile) {
+      padding: 70px 0px;
+    }
+    @media screen and (min-width: $bp-tablet) {
+      order: 2;
+      flex-direction: column;
+      padding-left: 164px;
+      gap: 140px;
+    }
+  }
+  &__background-line {
+    position: relative;
+    @media screen and (min-width: $bp-mobile) {
+      transform: scale(2);
+    }
+    @media screen and (min-width: $bp-tablet) {
+      transform: scale(3);
+    }
+  }
+  &__main-photo {
+    position: absolute;
+    padding-left: 40px;
+    margin-top: -120px;
+    @media screen and (min-width: $bp-mobile) {
+      transform: scale(2);
+    }
+    @media screen and (min-width: $bp-tablet) {
+      transform: scale(3);
+      z-index: 1;
+    }
+  }
+  &__info {
+    @media screen and (min-width: $bp-tablet) {
+      order: 1;
+      max-width: 460px;
+    }
+  }
+
+  &__text-container-title {
+    font-size: 30px;
+    color: $color-base-light;
+    font-weight: normal;
+    line-height: 1;
+    padding: 25px 0px;
+    font-weight: normal;
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 62px;
+    }
+  }
+  &__text {
+    color: $color-base-light;
+    font-family: Roboto;
+    font-size: 16px;
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 18px;
+    }
+  }
+  &__contact {
+    padding-top: 70px;
+    max-width: 396px;
+    @media screen and (min-width: $bp-tablet) {
+      max-width: 460px;
+    }
+  }
+  &__form-field {
+    margin-bottom: 35px;
+    position: relative;
+  }
+
+  &__form-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid $color-secondary;
+    padding-right: 150px;
+    color: $color-base-light;
+    margin-bottom: 35px;
+    @media screen and (min-width: $bp-tablet) {
+      padding-right: 312px;
+    }
+    &:focus {
+      border-bottom: 1px solid $color-secondary-light;
+    }
+    &::placeholder {
+      font-family: Roboto;
+      font-weight: 300;
+      @media screen and (min-width: $bp-tablet) {
+        font-size: 18px;
+      }
+    }
+  }
+  &__form-screenshot {
+    padding: 35px 0px 85px;
+  }
+  &__form-screenshot-input {
+    position: absolute;
+    width: 296px;
+    height: 120px;
+    margin-top: -45px;
+    opacity: 0;
+  }
+  &__form-screenshot-label {
+    font-size: 16px;
+    border: 2px dashed $color-secondary;
+    padding: 50px 65px;
+    color: $color-base-light;
+    font-weight: 300;
+    font-family: Roboto;
+    text-decoration: underline;
+    @media screen and (min-width: $bp-tablet) {
+      padding: 50px 137px;
+      font-size: 18px;
+      line-height: 1.1;
+    }
+  }
+  &__checkbox-container {
+    color: $color-base-light;
+    font-weight: 300;
+    font-family: Roboto;
+    padding-top: 14px;
+    font-size: 12px;
+  }
+}
